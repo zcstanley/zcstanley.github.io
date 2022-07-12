@@ -85,7 +85,7 @@ author:
   bio              : "I am a research scientist at CIRES/NOAA PSL."
   location         : "Boulder, CO"
   employer         :
-  pubmed           : ""
+  pubmed           : #""
   googlescholar    : "https://scholar.google.com/citations?user=-iSY1_wAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
