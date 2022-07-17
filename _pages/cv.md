@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Download my full CV <a href="zcstanley.github.io/_pages/CV.pdf" target="_blank">here.</a>
+Download my full CV <a href="zcstanley.github.io/files/CV.pdf" target="_blank">here</a>.
 
 Education
 ======
