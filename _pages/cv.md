@@ -17,7 +17,13 @@ Education
 * M.S. in Applied Mathematics, University of Colorado, Boulder, 2020
 * Sc.B. in Mathematics, Brown University, 2015
 
-Research experience
+Fellowships
+======
+* National Science Foundation Graduate Research Fellowship, 2019-2021
+* Figueroa Family Fellowship, 2019
+
+
+Research Experience
 ======
 * Research Scientist, 2021-Present
   * CIRES/NOAA
