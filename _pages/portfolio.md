@@ -12,7 +12,7 @@ Data assimilation, a method for combining real world data with dynamical models,
 
 Related publications: [Stanley et al., NPG (2021)](https://doi.org/10.5194/npg-28-565-2021)
 
-Stochastic Parameterizations in Ocean Models
+Stochastic Parameterizations
 ---------------
 
 The density of seawater is an important quantity in ocean models. There is an error in the way ocean models calculate density, which is especially pronounced in the ocean models used for climate forecasting. Using output from a high-resolution ocean model, I quantify this error in density and propose a correction. We do not expect to be able to perfectly parameterize this error as it is affected by turbulent and unpredictable fluctuations. Instead, I proposed a stochastic correction which replicates its statistical properties: mean, variance, and spatiotemporal correlation structure. Stochastic parameterizations, such as this one, help to model realistic spread in ensemble data assimilation systems. This correction to the equation of state is now implemented in NOAA’s MOM6 ocean model. 
