@@ -16,7 +16,6 @@ Parameterizing the Impact of Unresolved Temperature Variability on the Large-Sca
 2. **Stanley, Z.**, Grooms, I., &amp; Kleiber, W. (2021). Multivariate Localization Functions for Strongly Coupled Data Assimilation
 in the Bivariate Lorenz 96 System, *Nonlin. Processes Geophys.*\
 [[Online Publication](https://doi.org/10.5194/npg-28-565-2021)]
-[<a href="http://zcstanley.github.io/files/2020StanleyParameterizing.pdf" target="_blank">pdf</a>]
 
 
 3. Naumenko, D. J., Dykes, J., O’Connor, G. K., **Stanley, Z.**, Affara, N., Doel, A. M., Drammeh, S., Dunger, D. B.,
@@ -29,6 +28,7 @@ Identification and Quantification of Weight Faltering. *American Journal of Phys
 Impact of Unresolved Temperature Variability on the Large-Scale Density Field: Part 1. Theory. *Journal of
 Advances in Modeling Earth Systems*\
 [[Online Publication](https://doi.org/10.1029/2020MS002185)]
+[<a href="http://zcstanley.github.io/files/2020StanleyParameterizing.pdf" target="_blank">pdf</a>]
 
 
 5. **Stanley, Z.**, Bachman, S. D., &amp;  Grooms, I. (2020). Vertical Structure of Ocean Mesoscale Eddies with Implications
