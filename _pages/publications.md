@@ -23,6 +23,7 @@ in the Bivariate Lorenz 96 System, *Nonlinear Processes in Geophysics*\
 Faal, A., Ong, K. K., Sosseh, F., Prentice, A. M., Moore, S. E., &amp; Bernstein, R. M. (2021). A Novel Method for the
 Identification and Quantification of Weight Faltering. *American Journal of Physical Anthropology*\
 [[Online Publication](https://doi.org/10.1002/ajpa.24217)]
+[<a href="http://zcstanley.github.io/files/2021NaumenkoANovel.pdf" target="_blank">pdf</a>]
 
 
 4. **Stanley, Z.**, Grooms, I., Kleiber, W., Bachman, S. D., Castruccio, F., &amp; Adcroft, A. (2020). Parameterizing the
@@ -41,6 +42,8 @@ for Parameterizations of Tracer Transport. *Journal of Advances in Modeling Eart
 6. North, J., **Stanley, Z.**, Kleiber, W., Deierling, W., Gilleland, E., &amp; Steiner, M. (2020). A statistical approach to fast
 nowcasting of lightning potential fields. *Advances in Statistical Climatology, Meteorology and Oceanography*\
 [[Online Publication](https://doi.org/10.5194/ascmo-6-79-2020)]
+[<a href="http://zcstanley.github.io/files/2020NorthAStatistical.pdf" target="_blank">pdf</a>]
+
 
 
 
