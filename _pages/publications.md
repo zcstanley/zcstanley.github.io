@@ -14,8 +14,9 @@ Parameterizing the Impact of Unresolved Temperature Variability on the Large-Sca
 
 
 2. **Stanley, Z.**, Grooms, I., &amp; Kleiber, W. (2021). Multivariate Localization Functions for Strongly Coupled Data Assimilation
-in the Bivariate Lorenz 96 System, *Nonlin. Processes Geophys.*\
+in the Bivariate Lorenz 96 System, *Nonlinear Processes in Geophysics*\
 [[Online Publication](https://doi.org/10.5194/npg-28-565-2021)]
+[<a href="http://zcstanley.github.io/files/2021StanleyMultivariate.pdf" target="_blank">pdf</a>]
 
 
 3. Naumenko, D. J., Dykes, J., O’Connor, G. K., **Stanley, Z.**, Affara, N., Doel, A. M., Drammeh, S., Dunger, D. B.,
