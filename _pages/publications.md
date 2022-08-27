@@ -8,7 +8,8 @@ author_profile: true
 1. Kenigson, J. S., Adcroft, A., Bachman, S. D., Castruccio, F., Grooms, I., Pegion, P., &amp; **Stanley, Z.** (2022).
 Parameterizing the Impact of Unresolved Temperature Variability on the Large-Scale Density Field: 2. Modeling.
 *Journal of Advances in Modeling Earth Systems*\
-[[Online Publication]](https://doi.org/10.1029/2021MS002844)
+[[Online Publication](https://doi.org/10.1029/2021MS002844)]
+[<a href="http://zcstanley.github.io/files/2022KenigsonParameterizing.pdf" target="_blank">pdf</a>]
 
 2. **Stanley, Z.**, Grooms, I., &amp; Kleiber, W. (2021). Multivariate Localization Functions for Strongly Coupled Data Assimilation
 in the Bivariate Lorenz 96 System, *Nonlin. Processes Geophys.*\
