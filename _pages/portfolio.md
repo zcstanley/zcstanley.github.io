@@ -17,4 +17,4 @@ Stochastic Parameterizations
 
 The density of seawater is an important quantity in ocean models. There is an error in the way ocean models calculate density, which is especially pronounced in the ocean models used for climate forecasting. Using output from a high-resolution ocean model, I quantify this error in density and propose a correction. We do not expect to be able to perfectly parameterize this error as it is affected by turbulent and unpredictable fluctuations. Instead, I proposed a stochastic correction which replicates its statistical properties: mean, variance, and spatiotemporal correlation structure. Stochastic parameterizations, such as this one, help to model realistic spread in ensemble data assimilation systems. This correction to the equation of state is now implemented in NOAA’s MOM6 ocean model. 
 
-Related publications: [Stanley et al., JAMES (2020)](https://doi.org/10.1029/2020MS002151); [Kenigson et al. (2022)](https://doi.org/10.1029/2021MS002844).
+Related publications: [Stanley et al., JAMES (2020)](https://doi.org/10.1029/2020MS002151); [Kenigson et al., JAMES (2022)](https://doi.org/10.1029/2021MS002844).
