@@ -5,6 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
+7. Grooms, I., Renaud, C., **Stanley, Z.**, &amp; Yang, L. (2022).
+Analog Ensemble Data Assimilation in the Quasigeostrophic Coupled Model.
+*Submitted to QJRMS*
 
 6. Kenigson, J. S., Adcroft, A., Bachman, S. D., Castruccio, F., Grooms, I., Pegion, P., &amp; **Stanley, Z.** (2022).
 Parameterizing the Impact of Unresolved Temperature Variability on the Large-Scale Density Field: 2. Modeling.
