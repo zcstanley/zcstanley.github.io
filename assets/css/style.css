@@ -1,0 +1,389 @@
+/* ================================================
+   Zofia Stanley — Personal Site
+   ================================================ */
+
+:root {
+  color-scheme: light;
+  --bg:           #F7F4F0;
+  --text:         #1E1B17;
+  --muted:        #7A756F;
+  --accent:       #2A7367;
+  --accent-hover: #1C5248;
+  --border:       #DDD9D4;
+  --max-width:    740px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+  line-height: 1.65;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---- Typography ---- */
+
+h1, h2, .site-name, .intro, .hero-name {
+  font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+  color: var(--text);
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ---- Header ---- */
+
+header {
+  width: 100%;
+  padding: 1.75rem 2rem;
+}
+
+.header-inner {
+  max-width: calc(var(--max-width) + 2rem);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-name:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+nav a {
+  font-size: 0.88rem;
+  letter-spacing: 0.06em;
+  text-transform: lowercase;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+/* ---- Main layout ---- */
+
+main {
+  flex: 1;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 3.5rem 2rem 5rem;
+  width: 100%;
+}
+
+/* ---- Hero (home page) ---- */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 148px;
+  gap: 3rem;
+  align-items: start;
+  margin-bottom: 4.5rem;
+}
+
+.intro {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.hero-photo img {
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  margin-top: 0.25rem;
+}
+
+.hero-text .partners {
+  margin-top: 1.25rem;
+  font-size: 0.92rem;
+}
+
+/* ---- Home page doors ---- */
+
+.doors {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.door {
+  display: block;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1.1rem 1.2rem;
+  color: var(--text);
+  transition: border-color 0.15s ease;
+}
+
+.door:hover {
+  border-color: var(--accent);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.door-title {
+  display: block;
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--accent);
+  margin-bottom: 0.35rem;
+}
+
+.door-text {
+  display: block;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+/* ---- Section divider ---- */
+
+.section {
+  border-top: 1px solid var(--border);
+  padding-top: 3rem;
+  margin-top: 0;
+}
+
+.section + .section {
+  margin-top: 3rem;
+}
+
+.section-label {
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 1.25rem;
+  font-family: system-ui, sans-serif;
+}
+
+/* ---- Project / Publication list ---- */
+
+.item-list {
+  list-style: none;
+}
+
+.item-list li {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.item-list li:first-child {
+  border-top: 1px solid var(--border);
+}
+
+.item-title {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  color: var(--text);
+}
+
+.item-meta {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.item-description {
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-bottom: 0;
+}
+
+/* ---- Consulting page ---- */
+
+.service-block {
+  margin-bottom: 2.5rem;
+}
+
+.service-block h3 {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.lede {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.35rem;
+  line-height: 1.45;
+}
+
+.partners {
+  color: var(--muted);
+}
+
+.partners strong {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.subhead {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 2rem 0 0.75rem;
+}
+
+.bullets,
+.steps {
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.bullets li,
+.steps li {
+  margin-bottom: 0.6rem;
+}
+
+/* Draft-only: highlights text still to be filled in. Remove before launch. */
+.placeholder {
+  background: #FBEFC9;
+  padding: 0 0.2em;
+}
+
+/* ---- Contact / email ---- */
+
+.contact-email {
+  font-size: 1.1rem;
+}
+
+/* ---- Footer ---- */
+
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 2rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.footer-inner {
+  max-width: calc(var(--max-width) + 2rem);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer a {
+  color: var(--muted);
+}
+
+footer a:hover {
+  color: var(--accent);
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 580px) {
+  html {
+    font-size: 17px;
+  }
+
+  header {
+    padding: 1.25rem 1.25rem;
+  }
+
+  main {
+    padding: 2.5rem 1.25rem 4rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+    margin-bottom: 3rem;
+  }
+
+  .hero-photo {
+    order: -1;
+  }
+
+  .doors {
+    grid-template-columns: 1fr;
+    margin-bottom: 3rem;
+  }
+
+  .hero-photo img {
+    width: 100px;
+    height: 100px;
+  }
+
+  nav {
+    gap: 1.25rem;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+}
