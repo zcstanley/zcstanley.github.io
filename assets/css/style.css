@@ -310,12 +310,6 @@ main {
   padding: 0 0.2em;
 }
 
-/* ---- Contact / email ---- */
-
-.contact-email {
-  font-size: 1.1rem;
-}
-
 /* ---- Footer ---- */
 
 footer {
@@ -377,8 +371,18 @@ footer a:hover {
     height: 180px;
   }
 
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
   nav {
     gap: 1.25rem;
+  }
+
+  nav a {
+    white-space: nowrap;
   }
 
   .footer-inner {
