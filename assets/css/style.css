@@ -129,7 +129,7 @@ main {
 
 .hero {
   display: grid;
-  grid-template-columns: 1fr 148px;
+  grid-template-columns: 1fr 210px;
   gap: 3rem;
   align-items: start;
   margin-bottom: 4.5rem;
@@ -142,11 +142,11 @@ main {
 }
 
 .hero-photo img {
-  width: 148px;
-  height: 148px;
+  width: 210px;
+  height: 252px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center;
   display: block;
   margin-top: 0.25rem;
 }
@@ -160,7 +160,7 @@ main {
 
 .doors {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   margin-bottom: 4rem;
 }
@@ -373,8 +373,8 @@ footer a:hover {
   }
 
   .hero-photo img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 180px;
   }
 
   nav {
