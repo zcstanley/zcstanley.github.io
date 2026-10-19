@@ -304,6 +304,43 @@ main {
   margin-bottom: 0.6rem;
 }
 
+/* ---- Figures ---- */
+
+.figure {
+  margin: 2rem 0;
+}
+
+.figure figcaption {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.6rem;
+  line-height: 1.5;
+}
+
+/* Report excerpts: shown as a white sheet of paper */
+.figure-paper img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.6rem;
+}
+
+/* Half-width text beside a figure; stacks on small screens */
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.split > .figure {
+  margin: 0;
+}
+
 /* Draft-only: highlights text still to be filled in. Remove before launch. */
 .placeholder {
   background: #FBEFC9;
@@ -383,6 +420,16 @@ footer a:hover {
 
   nav a {
     white-space: nowrap;
+  }
+
+  .figure-paper img {
+    padding: 0.5rem;
+  }
+
+  .split {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .footer-inner {
